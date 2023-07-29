@@ -12,7 +12,7 @@ spec:
   ingressClassName: nginx
   rules:
   # Use the host you used in your kubernetes Ingress Configurations
-  - host: prometheus.laplastech.cloud
+  - host: prometheus1.laplastech.cloud
     http:
       paths:
       - backend:
